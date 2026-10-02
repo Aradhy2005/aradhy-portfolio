@@ -3,7 +3,7 @@ export const links = {
   linkedin: "https://www.linkedin.com/in/aradhy-bajpai-897241283",
   leetcode: "https://leetcode.com/u/aradhy2005",
   resume: "/resume/Aradhy_Bajpai_Resume.pdf",
-};
+}
 
 export const projects = [
   {
@@ -12,7 +12,14 @@ export const projects = [
     title: "EXAMSHELF",
     subtitle: "An academic resource platform built for students.",
     kind: ["FULL-STACK"],
-    tags: ["Next.js", "React.js", "Tailwind CSS", "Supabase", "PostgreSQL", "Vercel"],
+    tags: [
+      "Next.js",
+      "React.js",
+      "Tailwind CSS",
+      "Supabase",
+      "PostgreSQL",
+      "Vercel",
+    ],
     github: "https://github.com/Aradhy2005/ExamShelf",
     live: "https://www.examshelf.in/",
     accent: "blue",
@@ -23,7 +30,17 @@ export const projects = [
     title: "DELTARAG",
     subtitle: "Documentation Change Impact Analysis",
     kind: ["AI / ML", "GENAI", "BACKEND"],
-    tags: ["Python", "RAG", "LangChain", "ChromaDB", "Embeddings", "Ollama", "FastAPI", "React", "Docker"],
+    tags: [
+      "Python",
+      "RAG",
+      "LangChain",
+      "ChromaDB",
+      "Embeddings",
+      "Ollama",
+      "FastAPI",
+      "React",
+      "Docker",
+    ],
     github: "https://github.com/Aradhy2005/DeltaRAG",
     accent: "violet",
   },
@@ -37,7 +54,7 @@ export const projects = [
     github: "https://github.com/Aradhy2005/Credit-Risk-Assessment",
     accent: "cyan",
   },
-];
+]
 
 export const navItems = [
   ["Home", "home"],
@@ -46,14 +63,25 @@ export const navItems = [
   ["Skills", "skills"],
   ["Achievements", "achievements"],
   ["Contact", "contact"],
-];
+]
 
 export const skillGroups = [
   ["LANGUAGES", ["Java", "Python", "JavaScript", "SQL"]],
   ["FRONTEND", ["React", "Next.js", "Tailwind CSS"]],
   ["BACKEND", ["Node.js", "FastAPI", "REST APIs"]],
   ["AI / ML", ["Machine Learning", "Scikit-learn", "Pandas", "NumPy", "SHAP"]],
-  ["GENAI", ["RAG", "LangChain", "ChromaDB", "Embeddings", "Semantic Search", "LLMs", "Ollama"]],
+  [
+    "GENAI",
+    [
+      "RAG",
+      "LangChain",
+      "ChromaDB",
+      "Embeddings",
+      "Semantic Search",
+      "LLMs",
+      "Ollama",
+    ],
+  ],
   ["DATA", ["MySQL", "PostgreSQL", "Firebase", "Supabase"]],
   ["ENGINEERING", ["Git", "GitHub", "Docker", "AWS", "Vercel"]],
-];
+]
